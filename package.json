@@ -1,0 +1,20 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "LeetCode Solutions",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wesokuhara/leetcode.git"
+  },
+  "scripts": {
+    "start": "npm test",
+    "test": "jest",
+    "watch-test": "npm test -- --watchAll --verbose"
+  },
+  "author": "Wes Okuhara",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^21.0.2"
+  }
+}
