@@ -1,7 +1,5 @@
 # LeetCode Challenge Solutions
-This repository contains my solutions to LeetCode algorithm challenges.
-
-The solutions are coded primarily in JavaScript using TDD.
+My JavaScript solutions to LeetCode algorithm challenges with TDD
 
 ## Install Dependencies:
 ```
