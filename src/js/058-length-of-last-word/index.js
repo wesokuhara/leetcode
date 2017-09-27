@@ -1,4 +1,4 @@
-const lengthOfLastWord = function (s) {
+const lengthOfLastWord = s => {
   s = s.trim();
 
   let i = s.length - 1;

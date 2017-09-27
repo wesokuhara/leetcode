@@ -41,9 +41,7 @@ The height and width of the given matrix is in range [1, 100].
 The given r and c are all positive.
 */
 
-const {
-  matrixReshape
-} = require('./index');
+const { matrixReshape } = require('./index');
 
 describe('566. Reshape the Matrix', () => {
   it('should reshape the matrix', () => {

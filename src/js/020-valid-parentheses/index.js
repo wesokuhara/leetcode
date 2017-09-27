@@ -9,9 +9,12 @@ const isValid = s => {
     } else {
       let matchingChar = stack.pop();
 
-      if ((c === ')' && matchingChar !== '(') ||
-          (c === ']' && matchingChar !== '[') ||
-          (c === '}' && matchingChar !== '{')) return false;
+      if (
+        (c === ')' && matchingChar !== '(') ||
+        (c === ']' && matchingChar !== '[') ||
+        (c === '}' && matchingChar !== '{')
+      )
+        return false;
     }
   }
 

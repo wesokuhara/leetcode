@@ -28,9 +28,7 @@ Return:
 ]
 */
 
-const {
-  fizzBuzz
-} = require('./index');
+const { fizzBuzz } = require('./index');
 
 describe('412. Fizz Buzz', () => {
   it('should return the number of ways to climb the stairs', () => {
@@ -59,9 +57,7 @@ describe('412. Fizz Buzz', () => {
 
   it('should return the number of ways to climb the stairs', () => {
     const n = 1;
-    const expected = [
-      '1'
-    ];
+    const expected = ['1'];
 
     const result = fizzBuzz(n);
     expect(result).toEqual(expected);

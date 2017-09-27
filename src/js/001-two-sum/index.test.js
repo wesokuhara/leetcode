@@ -10,9 +10,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 */
 
-const {
-  twoSum
-} = require('./index');
+const { twoSum } = require('./index');
 
 describe('1. Two Sum', () => {
   it('should return the indices of two numbers that add up to the target', () => {
@@ -26,7 +24,7 @@ describe('1. Two Sum', () => {
   it('should return the indices of two numbers that add up to the target', () => {
     const nums = [0, 4, 3, 0];
     const target = 0;
-    
+
     const result = twoSum(nums, target);
     expect(result).toEqual([0, 3]);
   });

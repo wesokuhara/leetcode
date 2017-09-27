@@ -9,9 +9,7 @@ Given s = "Hello World",
 return 5.
 */
 
-const {
-  lengthOfLastWord
-} = require('./index');
+const { lengthOfLastWord } = require('./index');
 
 describe('58. Length of Last Word', () => {
   it('should return the length of the last word', () => {

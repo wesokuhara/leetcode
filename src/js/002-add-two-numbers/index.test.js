@@ -7,10 +7,7 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 */
 
-const {
-  ListNode,
-  addTwoNumbers
-} = require('./index');
+const { ListNode, addTwoNumbers } = require('./index');
 
 describe('2. Add Two Numbers', () => {
   it('should add the two numbers are return it as a linked list', () => {
@@ -43,6 +40,6 @@ describe('2. Add Two Numbers', () => {
     expected.next.next.next = new ListNode(1);
 
     const result = addTwoNumbers(l1, l2);
-    expect(result).toEqual(expected); 
+    expect(result).toEqual(expected);
   });
 });

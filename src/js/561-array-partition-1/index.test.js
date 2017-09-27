@@ -14,13 +14,11 @@ n is a positive integer, which is in the range of [1, 10000].
 All the integers in the array will be in the range of [-10000, 10000].
 */
 
-const {
-  arrayPairSum
-} = require('./index');
+const { arrayPairSum } = require('./index');
 
 describe('561. Array Partition I', () => {
   it('should return the maximal pair sum', () => {
-    const s = [1 ,4, 3, 2];
+    const s = [1, 4, 3, 2];
 
     const result = arrayPairSum(s);
     expect(result).toBe(4);

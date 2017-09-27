@@ -1,7 +1,7 @@
 function ListNode(val) {
   this.val = val;
   this.next = null;
-};
+}
 
 const addTwoNumbers = (l1, l2) => {
   let dummy = new ListNode(-1);

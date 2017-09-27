@@ -6,9 +6,7 @@ The brackets must close in the correct order, "()" and "()[]{}"
 are all valid but "(]" and "([)]" are not.
 */
 
-const {
-  isValid
-} = require('./index');
+const { isValid } = require('./index');
 
 describe('20. Valid Parentheses', () => {
   it('should be valid', () => {
