@@ -1,8 +1,3 @@
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
-
 const reverseList = head => {
   let prev = null;
   let cur = head;
@@ -19,6 +14,5 @@ const reverseList = head => {
 };
 
 module.exports = {
-  ListNode,
   reverseList
 };

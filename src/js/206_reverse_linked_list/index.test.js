@@ -4,7 +4,8 @@ Reverse a singly linked list.
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 */
 
-const { ListNode, reverseList } = require('./index');
+const ListNode = require('../ListNode');
+const { reverseList } = require('./index');
 
 describe('206. Reverse Linked List', () => {
   it('should reverse the linked list', () => {
