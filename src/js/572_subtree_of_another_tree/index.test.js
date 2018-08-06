@@ -34,7 +34,8 @@ Given tree t:
 Return false.
 */
 
-const { TreeNode, isSubtree } = require('./index');
+const TreeNode = require('../TreeNode');
+const { isSubtree } = require('./index');
 
 describe('572. Subtree of Another Tree', () => {
   it('should have the subtree', () => {

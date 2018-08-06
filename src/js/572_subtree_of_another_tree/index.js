@@ -1,9 +1,3 @@
-function TreeNode(val) {
-  this.val = val;
-  this.left = null;
-  this.right = null;
-}
-
 const isSubtree = (s, t) => {
   if (t === null) return true;
   if (s === null) return false;
@@ -23,6 +17,5 @@ const isSameTree = (s, t) => {
 };
 
 module.exports = {
-  TreeNode,
   isSubtree
 };
