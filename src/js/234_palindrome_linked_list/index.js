@@ -1,9 +1,4 @@
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
-
-const isPalindrome = head => {
+function isPalindrome(head) {
   if (head === null || head.next === null) return true;
 
   let stack = [];
@@ -28,9 +23,8 @@ const isPalindrome = head => {
   }
 
   return true;
-};
+}
 
 module.exports = {
-  ListNode,
   isPalindrome
 };

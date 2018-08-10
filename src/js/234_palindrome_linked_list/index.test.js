@@ -5,7 +5,8 @@ Follow up:
 Could you do it in O(n) time and O(1) space?
 */
 
-const { ListNode, isPalindrome } = require('./index');
+const ListNode = require('../ListNode');
+const { isPalindrome } = require('./index');
 
 describe('234. Palindrom Linked List', () => {
   it('should be a palindrome', () => {

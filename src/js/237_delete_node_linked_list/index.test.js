@@ -7,7 +7,8 @@ with value 3, the linked list should become 1 -> 2 -> 4 after calling your
 function.
 */
 
-const { ListNode, deleteNode } = require('./index');
+const ListNode = require('../ListNode');
+const { deleteNode } = require('./index');
 
 describe('237. Delete Node in a Linked List', () => {
   it('should delete the node in the list', () => {

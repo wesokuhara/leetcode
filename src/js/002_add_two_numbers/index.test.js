@@ -7,7 +7,8 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 */
 
-const { ListNode, addTwoNumbers } = require('./index');
+const ListNode = require('../ListNode');
+const { addTwoNumbers } = require('./index');
 
 describe('2. Add Two Numbers', () => {
   it('should add the two numbers are return it as a linked list', () => {

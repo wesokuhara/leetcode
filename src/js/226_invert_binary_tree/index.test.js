@@ -13,7 +13,8 @@ to
 9   6 3   1
 */
 
-const { TreeNode, invertTree } = require('./index');
+const TreeNode = require('../TreeNode');
+const { invertTree } = require('./index');
 
 describe('226. Invert Binary Tree', () => {
   it('should invert the binary tree', () => {

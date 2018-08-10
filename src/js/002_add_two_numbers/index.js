@@ -1,7 +1,4 @@
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
+const ListNode = require('../ListNode');
 
 const addTwoNumbers = (l1, l2) => {
   let dummy = new ListNode(-1);
@@ -37,6 +34,5 @@ const addTwoNumbers = (l1, l2) => {
 };
 
 module.exports = {
-  ListNode,
   addTwoNumbers
 };

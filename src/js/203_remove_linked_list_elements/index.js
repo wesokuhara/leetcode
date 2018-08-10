@@ -1,9 +1,6 @@
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
+const ListNode = require('../ListNode');
 
-const removeElements = (head, val) => {
+function removeElements(head, val) {
   let dummy = new ListNode(-1);
   dummy.next = head;
   let cur = dummy;
@@ -17,9 +14,8 @@ const removeElements = (head, val) => {
   }
 
   return dummy.next;
-};
+}
 
 module.exports = {
-  ListNode,
   removeElements
 };
